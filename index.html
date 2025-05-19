@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        .center { text-align: center; }
+        .italics { font-style: italic; font-family: 'Times New Roman', serif; }
+        .colorful { 
+            background-color: rgb(11, 184, 103); 
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: rgb(30, 210, 242);
+            padding: 15px;
+        }
+        .divStyle {
+            background-color: rgb(14, 167, 78);
+            color: rgb(18, 177, 167);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px;
+        }
+        .spanStyle {
+            background-color: darkgreen;
+            color: rgb(33, 6, 189);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 10px;
+        }
+        .tab { 
+            display: inline-block;
+            margin-left: 40px; 
+        }
+        h2 { 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        a:hover {
+            color: #ff6600; /* Change to orange on hover */
+        }
+    </style>
+</head>
+<body> 
+
+<div class="center">
+    <a href="W2D1.html">W2D1</a>
+    <span class="tab"></span>|<span class="tab"></span>
+    <a href="W1D1.html">W1D1</a>
+    <span class="tab"></span>|<span class="tab"></span>
+    <a href="W3D1.html" target="_blank">W3D1</a>
+</div>
+
+<h2>Heading Tags</h2>  
+<h1>About me</h1> 
+<h2> My name is Leo Anazawa</h2>
+<h3> Birthday is May 17th 2009</h3>
+<hr> 
+
+<h2 class="center">Inserting Images: Size Not Explicitly Set</h2>
+<img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Ilya-Lyubushkin-46-of-the-Arizona-Coyotes-skates-against-Roman-Josi-59-of-the-Nashville-Predators-Getty-H-2022.jpg?w=1296&h=730&crop=1" width="600"><br><hr>
+
+<h2 class="center">Inserting Images: Size Explicitly Set (200 x 200)</h2>
+<img src="https://blog.janbox.com/wp-content/uploads/2022/08/japanese-kendo.jpg" width="200" height="200"><br><hr>
+
+<h2 class="center">Inserting Links</h2>
+<a href="https://www.youtube.com/watch?v=3vItyS0Z81w" target="_blank">Kendo</a><br><br> 
+<a href="https://www.kappasushi.jp/" target="_blank">Kappa Sushi</a><br><hr> 
+<a href="https://www.youtube.com/watch?v=3vItyS0Z81w" target="_blank">Kendo</a><br><br> 
+
+<h2 class="center">Playing with the &lt;style&gt; Tag</h2><br>
+<p>Please look at the page source code so you can see how the &lt;style&gt; tag works within the &lt;head&gt; tag, and using the <span class="italics">class</span> attribute.</p> 
+
+<p class="colorful"> Fancy Styles! </p><br><hr>
+
+<h2 class="center">&lt;div&gt; &amp; &lt;span&gt; Elements</h2>
+<div class="divStyle">
+    <p>The &lt;div&gt; element is a <b>BLOCK ELEMENT</b>. This means that it affects text as a whole to whatever is inside. &lt;div&gt; can also hold numerous other semantic block elements, such as &lt;p&gt;.</p>
+    <p>However, there is an equivalent <b>INLINE ELEMENT</b> that is similar to the &lt;div&gt; tag. This is the <span class="spanStyle">&lt;span&gt; tag</span>.</p>
+</div>
+
+</body>
+</html>
