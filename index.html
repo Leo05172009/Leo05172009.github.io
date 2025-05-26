@@ -1,81 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic page setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About Me</title>
+
+    <!-- Internal CSS styling -->
     <style>
+        /* Center text alignment */
         .center { text-align: center; }
+
+        /* Italic text style using serif font */
         .italics { font-style: italic; font-family: 'Times New Roman', serif; }
+
+        /* Bright background and colorful text */
         .colorful { 
-            background-color: rgb(11, 184, 103); 
+            background-color: rgb(11, 184, 178); 
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
-            color: rgb(30, 210, 242);
+            color: rgb(216, 78, 14);
             padding: 15px;
         }
+
+        /* Dark background for divs with bright text */
         .divStyle {
-            background-color: rgb(14, 167, 78);
+            background-color: rgb(14, 19, 16);
             color: rgb(18, 177, 167);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 5px;
         }
+
+        /* Styled span element with bright background and strong font */
         .spanStyle {
-            background-color: darkgreen;
+            background-color: rgb(72, 245, 72);
             color: rgb(33, 6, 189);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             padding: 10px;
         }
+
+        /* Indent-style spacing */
         .tab { 
             display: inline-block;
             margin-left: 40px; 
         }
+
+        /* Heading style for h2 elements */
         h2 { 
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
+        /* Link hover effect */
         a:hover {
-            color: #ff6600; /* Change to orange on hover */
+            color: #ff6600; 
         }
     </style>
 </head>
 <body> 
 
+<!-- Navigation Links to Internal Pages -->
 <div class="center">
     <a href="W2D1.html">W2D1</a>
-    <span class="tab"></span>|<span class="tab"></span>
-    <a href="W1D1.html">W1D1</a>
-    <span class="tab"></span>|<span class="tab"></span>
-    <a href="W3D1.html" target="_blank">W3D1</a>
+    <a href="W1D1.html">W1D1</a> <!-- Changed from local path to relative link -->
+    <a href="W3D1.html">W3D1</a>
 </div>
 
-<h2>Heading Tags</h2>  
-<h1>About me</h1> 
-<h2> My name is Leo Anazawa</h2>
-<h3> Birthday is May 17th 2009</h3>
+<!-- Main Page Heading -->
+<h1>About Me</h1> 
+
+<!-- Personal Info Section -->
+<h2>My name is Leo Anazawa</h2>
+<h3>Birthday: May 17th, 2009</h3>
 <hr> 
 
-<h2 class="center">Inserting Images: Size Not Explicitly Set</h2>
-<img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Ilya-Lyubushkin-46-of-the-Arizona-Coyotes-skates-against-Roman-Josi-59-of-the-Nashville-Predators-Getty-H-2022.jpg?w=1296&h=730&crop=1" width="600"><br><hr>
+<!-- Favorite Sports Team Section -->
+<h2 class="center">My favorite ice hockey team is the Nashville Predators</h2>
+<img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Ilya-Lyubushkin-46-of-the-Arizona-Coyotes-skates-against-Roman-Josi-59-of-the-Nashville-Predators-Getty-H-2022.jpg" width="600" alt="Nashville Predators">
+<br><hr>
 
-<h2 class="center">Inserting Images: Size Explicitly Set (200 x 200)</h2>
-<img src="https://blog.janbox.com/wp-content/uploads/2022/08/japanese-kendo.jpg" width="200" height="200"><br><hr>
+<!-- Hobby Section: Kendo -->
+<h2 class="center">I play Kendo</h2>
+<img src="https://blog.janbox.com/wp-content/uploads/2022/08/japanese-kendo.jpg" width="400" alt="Kendo">
+<br><hr>
 
-<h2 class="center">Inserting Links</h2>
-<a href="https://www.youtube.com/watch?v=3vItyS0Z81w" target="_blank">Kendo</a><br><br> 
-<a href="https://www.kappasushi.jp/" target="_blank">Kappa Sushi</a><br><hr> 
-<a href="https://www.youtube.com/watch?v=3vItyS0Z81w" target="_blank">Kendo</a><br><br> 
+<!-- Favorite Game Section -->
+<h2 class="center">My favorite game is Fortnite</h2>
+<img src="https://cdn2.unrealengine.com/fnbr-35-00-c6ms1-discover-playlist-tiles-keyart-1920x1080-1920x1080-1c74e2c6b2ca.jpg" width="600" alt="Fortnite">
+<br><hr>
 
-<h2 class="center">Playing with the &lt;style&gt; Tag</h2><br>
-<p>Please look at the page source code so you can see how the &lt;style&gt; tag works within the &lt;head&gt; tag, and using the <span class="italics">class</span> attribute.</p> 
+<!-- External Links Section -->
+<h2 class="center">Links</h2>
 
-<p class="colorful"> Fancy Styles! </p><br><hr>
+<!-- Favorite food -->
+<a href="https://www.kappasushi.jp/" target="_blank">My favorite food: Sushi</a><br><br>
 
-<h2 class="center">&lt;div&gt; &amp; &lt;span&gt; Elements</h2>
-<div class="divStyle">
-    <p>The &lt;div&gt; element is a <b>BLOCK ELEMENT</b>. This means that it affects text as a whole to whatever is inside. &lt;div&gt; can also hold numerous other semantic block elements, such as &lt;p&gt;.</p>
-    <p>However, there is an equivalent <b>INLINE ELEMENT</b> that is similar to the &lt;div&gt; tag. This is the <span class="spanStyle">&lt;span&gt; tag</span>.</p>
-</div>
+<!-- Cool Kendo video -->
+<a href="https://www.youtube.com/watch?v=3vItyS0Z81w" target="_blank">Lightsaber Kendo</a><br><br>
+
+<!-- Favorite pencil Kaweco Special -->
+<a href="https://preco-corp.co.jp/products/5255/" target="_blank">My favorite mechanical pencil</a><br><hr> 
 
 </body>
 </html>
+
